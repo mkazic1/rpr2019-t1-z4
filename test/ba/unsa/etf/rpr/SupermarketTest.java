@@ -21,6 +21,9 @@ class SupermarketTest {
     @Test
     void izbaciArtiklSaKodom() {
         Supermarket moj_supermarket=new Supermarket();
-        moj_supermarket.
+        moj_supermarket.setBroj_artikala(890);
+        moj_supermarket.dodajArtikl(new Artikl("Romobil", 300, "3"));
+        assertEquals(891, moj_supermarket.getBroj_artikala());
     }
+
 }
