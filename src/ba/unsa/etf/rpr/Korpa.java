@@ -39,9 +39,9 @@ public class Korpa {
 
     private void pomjeriUnazad(int indeks) {
         if (broj_artikala - indeks >= 0)
-            System.arraycopy(moji_artikli, indeks + indeks, moji_artikli, indeks, broj_artikala - indeks);
-        moji_artikli[broj_artikala]=null; //artikl visak
-        broj_artikala--; //smanji broj artikala
+            System.arraycopy(moji_artikli, indeks + 1, moji_artikli, indeks, broj_artikala - indeks);
+        moji_artikli[broj_artikala]=null; //sada je ovo visak artikl
+        broj_artikala--; //smanji ukupni broj artikala
     }
 
 }

@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="getter za klasu Supermarket&#10;metoda dodavanja artikla u supermarketu" />
+    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="metoda izbacivanja artikla iz supermarketa&#10;implementacija metode sortiranja artikala nakon izbacivanja">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +43,26 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604666559025</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="metoda izbacivanja artikla iz supermarketa&#10;implementacija metode sortiranja artikala nakon izbacivanja">
+      <created>1604666890432</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604666890432</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +171,8 @@
     <MESSAGE value="metoda racunanja ukupne cijene svih artikala u korpi" />
     <MESSAGE value="getter za citanje artikala u klasi supermarket" />
     <MESSAGE value="getter za klasu Supermarket&#10;metoda dodavanja artikla u supermarketu" />
-    <option name="LAST_COMMIT_MESSAGE" value="getter za klasu Supermarket&#10;metoda dodavanja artikla u supermarketu" />
+    <MESSAGE value="metoda izbacivanja artikla iz supermarketa&#10;implementacija metode sortiranja artikala nakon izbacivanja" />
+    <option name="LAST_COMMIT_MESSAGE" value="metoda izbacivanja artikla iz supermarketa&#10;implementacija metode sortiranja artikala nakon izbacivanja" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604662384520">
@@ -151,13 +183,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604658979068" />
+    <state width="1367" height="320" key="GridCell.Tab.0.bottom" timestamp="1604670944908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604670944908" />
+    <state width="1367" height="320" key="GridCell.Tab.0.center" timestamp="1604670944908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604670944908" />
+    <state width="1367" height="320" key="GridCell.Tab.0.left" timestamp="1604670944908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604670944908" />
+    <state width="1367" height="320" key="GridCell.Tab.0.right" timestamp="1604670944908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604670944908" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1604082770084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604082770084" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604666581382">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604668257867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604666581382" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604668257867" />
   </component>
 </project>
