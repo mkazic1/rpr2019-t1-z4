@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="popvravljena privatna metoda pomjeriUnazad u Korpa i Supermarket">
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="metoda getBrojArtikala u klasi Supermarket">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SupermarketTest.dodajArtikl">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -82,8 +79,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SupermarketTest.dodajArtikl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SupermarketTest" />
+      <option name="METHOD_NAME" value="dodajArtikl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SupermarketTest.dodajArtikl" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -174,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604671210959</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="metoda getBrojArtikala u klasi Supermarket">
+      <created>1604683972804</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604683972804</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,33 +225,34 @@
     <MESSAGE value="getter za klasu Supermarket&#10;metoda dodavanja artikla u supermarketu" />
     <MESSAGE value="metoda izbacivanja artikla iz supermarketa&#10;implementacija metode sortiranja artikala nakon izbacivanja" />
     <MESSAGE value="popvravljena privatna metoda pomjeriUnazad u Korpa i Supermarket" />
-    <option name="LAST_COMMIT_MESSAGE" value="popvravljena privatna metoda pomjeriUnazad u Korpa i Supermarket" />
+    <MESSAGE value="metoda getBrojArtikala u klasi Supermarket" />
+    <option name="LAST_COMMIT_MESSAGE" value="metoda getBrojArtikala u klasi Supermarket" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604662384520">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604684228586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604662384520" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604684228586" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1604658979068">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604658979068" />
-    <state width="1367" height="320" key="GridCell.Tab.0.bottom" timestamp="1604678274419">
+    <state width="1367" height="320" key="GridCell.Tab.0.bottom" timestamp="1604684102717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604678274419" />
-    <state width="1367" height="320" key="GridCell.Tab.0.center" timestamp="1604678274419">
+    <state width="1367" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604684102717" />
+    <state width="1367" height="320" key="GridCell.Tab.0.center" timestamp="1604684102716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604678274419" />
-    <state width="1367" height="320" key="GridCell.Tab.0.left" timestamp="1604678274419">
+    <state width="1367" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604684102716" />
+    <state width="1367" height="320" key="GridCell.Tab.0.left" timestamp="1604684102716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604678274419" />
-    <state width="1367" height="320" key="GridCell.Tab.0.right" timestamp="1604678274419">
+    <state width="1367" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604684102716" />
+    <state width="1367" height="320" key="GridCell.Tab.0.right" timestamp="1604684102717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604678274419" />
+    <state width="1367" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604684102717" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1604082770084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

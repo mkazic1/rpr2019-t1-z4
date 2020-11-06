@@ -8,6 +8,10 @@ public class Supermarket {
         return broj_artikala;
     }
 
+    public void setBroj_artikala(int broj_artikala) {
+        this.broj_artikala = broj_artikala;
+    }
+
     public Artikl[] getArtikli() {
         return moji_artikli;
     }

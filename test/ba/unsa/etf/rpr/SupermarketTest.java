@@ -15,10 +15,12 @@ class SupermarketTest {
         Supermarket moj_supermarket=new Supermarket();
         moj_supermarket.dodajArtikl(new Artikl("Auto", 50000, "1"));
         moj_supermarket.dodajArtikl(new Artikl("Auto", 50000, "2"));
-        assertEquals(2, moj_supermarket);
+        assertEquals(2, moj_supermarket.getBroj_artikala());
     }
 
     @Test
     void izbaciArtiklSaKodom() {
+        Supermarket moj_supermarket=new Supermarket();
+        moj_supermarket.
     }
 }
