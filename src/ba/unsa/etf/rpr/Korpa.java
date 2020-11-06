@@ -29,12 +29,19 @@ public class Korpa {
         return null; //null zbog tipa metode
     }
 
+    public int dajUkupnuCijenuArtikala() {
+        int ukupna_cijena=0;
+        for(int i=0; i<broj_artikala; i++) {
+            ukupna_cijena+=moji_artikli[i].getCijena();
+        }
+        return ukupna_cijena;
+    }
+
     private void pomjeriUnazad(int indeks) {
         if (broj_artikala - indeks >= 0)
             System.arraycopy(moji_artikli, indeks + indeks, moji_artikli, indeks, broj_artikala - indeks);
         moji_artikli[broj_artikala]=null; //artikl visak
         broj_artikala--; //smanji broj artikala
     }
-
 
 }

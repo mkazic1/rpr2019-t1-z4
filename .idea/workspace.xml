@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="metoda izbacivanja artikla iz korpe">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
-    </list>
+    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="metoda izbacivanja artikla iz korpe&#10;definisanje private metode pomjeri unazad za sortiranje artikala nakon izbacivanja" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604662783521</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="metoda izbacivanja artikla iz korpe&#10;definisanje private metode pomjeri unazad za sortiranje artikala nakon izbacivanja">
+      <created>1604664739761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604664739761</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,7 +122,8 @@
     <MESSAGE value="metoda dodavanja artikla u korpu" />
     <MESSAGE value="metoda dodavanja artikla u korpu&#10;getter za Artikle" />
     <MESSAGE value="metoda izbacivanja artikla iz korpe" />
-    <option name="LAST_COMMIT_MESSAGE" value="metoda izbacivanja artikla iz korpe" />
+    <MESSAGE value="metoda izbacivanja artikla iz korpe&#10;definisanje private metode pomjeri unazad za sortiranje artikala nakon izbacivanja" />
+    <option name="LAST_COMMIT_MESSAGE" value="metoda izbacivanja artikla iz korpe&#10;definisanje private metode pomjeri unazad za sortiranje artikala nakon izbacivanja" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604662384520">
@@ -133,9 +138,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604082770084" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604660467237">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604664774907">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604660467237" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604664774907" />
   </component>
 </project>
