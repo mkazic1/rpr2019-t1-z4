@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="getteri i setteri dodani">
+    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="metoda dodavanja artikla u korpu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604660450383</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="atributi klase Korpa">
+      <created>1604661846361</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604661846361</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,13 +107,16 @@
     <MESSAGE value="konstruktor, seter" />
     <MESSAGE value="konstruktor" />
     <MESSAGE value="getteri i setteri dodani" />
-    <option name="LAST_COMMIT_MESSAGE" value="getteri i setteri dodani" />
+    <MESSAGE value="atributi klase Korpa" />
+    <MESSAGE value="metoda dodavanja artikala u korpu" />
+    <MESSAGE value="metoda dodavanja artikla u korpu" />
+    <option name="LAST_COMMIT_MESSAGE" value="metoda dodavanja artikla u korpu" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604660207819">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604662384520">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604660207819" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604662384520" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1604658979068">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
