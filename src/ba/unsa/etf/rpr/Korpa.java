@@ -4,6 +4,14 @@ public class Korpa {
     private Artikl[] moji_artikli=new Artikl[50]; //max 50 artikala
     private int broj_artikala=0;
 
+    public int getBroj_artikala() {
+        return broj_artikala;
+    }
+
+    public void setBroj_artikala(int broj_artikala) {
+        this.broj_artikala = broj_artikala;
+    }
+
     public boolean dodajArtikl(Artikl novi_artikl) {
         if(broj_artikala<50) {
             moji_artikli[broj_artikala]=new Artikl(novi_artikl.getNaziv(), novi_artikl.getCijena(), novi_artikl.getKod());

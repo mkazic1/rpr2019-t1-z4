@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="metoda setBrojArtikala u klasi Supermarket">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="Test za metode dodajArtikl i izbaciArtiklSaKodom u klasi Supermarket">
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SupermarketTest.izbaciArtiklSaKodom">
+  <component name="RunManager" selected="JUnit.KorpaTest.dodajArtikl">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -74,6 +74,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KorpaTest.dodajArtikl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="METHOD_NAME" value="dodajArtikl" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KorpaTest.dodajArtikl" />
         <item itemvalue="JUnit.SupermarketTest.izbaciArtiklSaKodom" />
         <item itemvalue="JUnit.SupermarketTest.dodajArtikl" />
         <item itemvalue="Application.Main" />
@@ -218,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604684307413</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Test za metode dodajArtikl i izbaciArtiklSaKodom u klasi Supermarket">
+      <created>1604684682452</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604684682452</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,41 +274,42 @@
     <MESSAGE value="popvravljena privatna metoda pomjeriUnazad u Korpa i Supermarket" />
     <MESSAGE value="metoda getBrojArtikala u klasi Supermarket" />
     <MESSAGE value="metoda setBrojArtikala u klasi Supermarket" />
-    <option name="LAST_COMMIT_MESSAGE" value="metoda setBrojArtikala u klasi Supermarket" />
+    <MESSAGE value="Test za metode dodajArtikl i izbaciArtiklSaKodom u klasi Supermarket" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test za metode dodajArtikl i izbaciArtiklSaKodom u klasi Supermarket" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604684228586">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604684819775">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604684228586" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604684819775" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1604658979068">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604658979068" />
-    <state width="1367" height="320" key="GridCell.Tab.0.bottom" timestamp="1604684477127">
+    <state width="1367" height="201" key="GridCell.Tab.0.bottom" timestamp="1604684607889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604684477127" />
-    <state width="1367" height="320" key="GridCell.Tab.0.center" timestamp="1604684477127">
+    <state width="1367" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604684607889" />
+    <state width="1367" height="201" key="GridCell.Tab.0.center" timestamp="1604684607888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604684477127" />
-    <state width="1367" height="320" key="GridCell.Tab.0.left" timestamp="1604684477126">
+    <state width="1367" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604684607888" />
+    <state width="1367" height="201" key="GridCell.Tab.0.left" timestamp="1604684607888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604684477126" />
-    <state width="1367" height="320" key="GridCell.Tab.0.right" timestamp="1604684477127">
+    <state width="1367" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604684607888" />
+    <state width="1367" height="201" key="GridCell.Tab.0.right" timestamp="1604684607889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604684477127" />
+    <state width="1367" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604684607889" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1604082770084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604082770084" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604671346619">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604684698670">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604671346619" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604684698670" />
     <state x="388" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604683030854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -293,5 +318,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="110" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1604683504601" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604684970151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604684970151" />
   </component>
 </project>
