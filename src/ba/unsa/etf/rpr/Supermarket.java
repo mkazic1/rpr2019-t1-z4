@@ -17,4 +17,23 @@ public class Supermarket {
         return false;
     } // ako je korpa puna artikl ostaje u supermarketu
 
+    public Artikl izbaciArtiklSaKodom(String kod) {
+        for(int i=0; i<broj_artikala; i++) {
+            if(moji_artikli[i].getKod().equals(kod)) {
+                Artikl pomocni=new Artikl(moji_artikli[i].getNaziv(), moji_artikli[i].getCijena(), moji_artikli[i].getKod());
+                moji_artikli[i]=null;
+                pomjeriUnazad(i);
+                return pomocni;
+            }
+        }
+        return null;
+    } // biranje artikla iz supermarketa od strane kupca
+
+    private void pomjeriUnazad(int indeks) {
+        if (broj_artikala - indeks >= 0)
+            System.arraycopy(moji_artikli, indeks + indeks, moji_artikli, indeks, broj_artikala - indeks);
+        moji_artikli[broj_artikala]=null; //artikl visak
+        broj_artikala--; //smanji broj artikala
+    }
+
 }

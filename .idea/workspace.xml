@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="metoda racunanja ukupne cijene svih artikala u korpi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
-    </list>
+    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="getter za klasu Supermarket&#10;metoda dodavanja artikla u supermarketu" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604665143443</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="getter za klasu Supermarket&#10;metoda dodavanja artikla u supermarketu">
+      <created>1604666559025</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604666559025</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +138,9 @@
     <MESSAGE value="metoda izbacivanja artikla iz korpe" />
     <MESSAGE value="metoda izbacivanja artikla iz korpe&#10;definisanje private metode pomjeri unazad za sortiranje artikala nakon izbacivanja" />
     <MESSAGE value="metoda racunanja ukupne cijene svih artikala u korpi" />
-    <option name="LAST_COMMIT_MESSAGE" value="metoda racunanja ukupne cijene svih artikala u korpi" />
+    <MESSAGE value="getter za citanje artikala u klasi supermarket" />
+    <MESSAGE value="getter za klasu Supermarket&#10;metoda dodavanja artikla u supermarketu" />
+    <option name="LAST_COMMIT_MESSAGE" value="getter za klasu Supermarket&#10;metoda dodavanja artikla u supermarketu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604662384520">
@@ -149,9 +155,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604082770084" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604664774907">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604666581382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604664774907" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604666581382" />
   </component>
 </project>
