@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="konstruktor, seter">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="konstruktor">
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Artikl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604084019673</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="konstruktor">
+      <created>1604659955572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604659955572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,13 +82,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="konstruktor, seter" />
-    <option name="LAST_COMMIT_MESSAGE" value="konstruktor, seter" />
+    <MESSAGE value="konstruktor" />
+    <option name="LAST_COMMIT_MESSAGE" value="konstruktor" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604659683881">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604660207819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604659683881" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1604660207819" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1604658979068">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -92,5 +98,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604082770084" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604660115109">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604660115109" />
   </component>
 </project>
