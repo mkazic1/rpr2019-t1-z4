@@ -4,6 +4,10 @@ public class Supermarket {
     private Artikl[] moji_artikli=new Artikl[1000]; // max 1000 artikala
     private int broj_artikala=0;
 
+    public int getBroj_artikala() {
+        return broj_artikala;
+    }
+
     public Artikl[] getArtikli() {
         return moji_artikli;
     }
@@ -36,5 +40,7 @@ public class Supermarket {
         broj_artikala--; //smanji ukupni broj artikala
 
     }
+
+
 
 }

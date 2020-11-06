@@ -19,15 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="metoda izbacivanja artikla iz supermarketa&#10;implementacija metode sortiranja artikala nakon izbacivanja">
+    <list default="true" id="d33b539f-44c1-4034-b36d-6485c68955ff" name="Default Changelist" comment="popvravljena privatna metoda pomjeriUnazad u Korpa i Supermarket">
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,11 +48,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rpr-t1-z3" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rpr" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -143,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604666890432</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="popvravljena privatna metoda pomjeriUnazad u Korpa i Supermarket">
+      <created>1604671210959</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604671210959</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +203,8 @@
     <MESSAGE value="getter za citanje artikala u klasi supermarket" />
     <MESSAGE value="getter za klasu Supermarket&#10;metoda dodavanja artikla u supermarketu" />
     <MESSAGE value="metoda izbacivanja artikla iz supermarketa&#10;implementacija metode sortiranja artikala nakon izbacivanja" />
-    <option name="LAST_COMMIT_MESSAGE" value="metoda izbacivanja artikla iz supermarketa&#10;implementacija metode sortiranja artikala nakon izbacivanja" />
+    <MESSAGE value="popvravljena privatna metoda pomjeriUnazad u Korpa i Supermarket" />
+    <option name="LAST_COMMIT_MESSAGE" value="popvravljena privatna metoda pomjeriUnazad u Korpa i Supermarket" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604662384520">
@@ -183,29 +215,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604658979068" />
-    <state width="1367" height="320" key="GridCell.Tab.0.bottom" timestamp="1604670944908">
+    <state width="1367" height="320" key="GridCell.Tab.0.bottom" timestamp="1604678274419">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604670944908" />
-    <state width="1367" height="320" key="GridCell.Tab.0.center" timestamp="1604670944908">
+    <state width="1367" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604678274419" />
+    <state width="1367" height="320" key="GridCell.Tab.0.center" timestamp="1604678274419">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604670944908" />
-    <state width="1367" height="320" key="GridCell.Tab.0.left" timestamp="1604670944908">
+    <state width="1367" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604678274419" />
+    <state width="1367" height="320" key="GridCell.Tab.0.left" timestamp="1604678274419">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604670944908" />
-    <state width="1367" height="320" key="GridCell.Tab.0.right" timestamp="1604670944908">
+    <state width="1367" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604678274419" />
+    <state width="1367" height="320" key="GridCell.Tab.0.right" timestamp="1604678274419">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604670944908" />
+    <state width="1367" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604678274419" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1604082770084">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604082770084" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604668257867">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604671346619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604668257867" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604671346619" />
+    <state x="388" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604683030854">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="388" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1604683030854" />
+    <state x="454" y="110" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604683504601">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="454" y="110" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1604683504601" />
   </component>
 </project>
