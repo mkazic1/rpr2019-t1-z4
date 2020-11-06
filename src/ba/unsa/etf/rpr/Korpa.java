@@ -11,17 +11,30 @@ public class Korpa {
             return true;
         }
         return false;
-    }//uspjesno ili neuspjesno dodavanje artikala u korpu
+    } //uspjesno ili neuspjesno dodavanje artikala u korpu
 
     public Artikl[] getArtikli() {
         return moji_artikli;
-    }//citanje koliko imamo artikala
+    } //citanje koliko imamo artikala
 
-    /*public Artikl izbaciArtiklSaKodom(String kod) {
-    }*/
+    public Artikl izbaciArtiklSaKodom(String kod) {
+        for(int i=0; i<broj_artikala; i++) {
+            if(moji_artikli[i].getKod().equals(kod)) { //jednakost kodova provjeravamo sa equals
+                Artikl pomocni=new Artikl(moji_artikli[i].getNaziv(), moji_artikli[i].getCijena(), moji_artikli[i].getKod());
+                moji_artikli[i]=null; //obrisi prepoznati artikl
+                pomjeriUnazad(i); //pomjeri artikle u nizu za jedno mjesto unazad
+                return pomocni;
+            }
+        }
+        return null; //null zbog tipa metode
+    }
 
-
-
+    private void pomjeriUnazad(int indeks) {
+        if (broj_artikala - indeks >= 0)
+            System.arraycopy(moji_artikli, indeks + indeks, moji_artikli, indeks, broj_artikala - indeks);
+        moji_artikli[broj_artikala]=null; //artikl visak
+        broj_artikala--; //smanji broj artikala
+    }
 
 
 }
